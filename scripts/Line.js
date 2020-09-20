@@ -1,10 +1,11 @@
 class Line extends CanvasElement {
+
     constructor(ctx, repere, functional) {
         super(ctx);
         this.repere = repere;
         this.functional = functional;
         let fct_str = '' + this.functional;
-        this.expr = 'f(x) = ' + fct_str.substr(5);
+        this.expr = 'f(x) = ' + fct_str.substr(3);
     }
 
     drawNextLine(i)
@@ -56,4 +57,5 @@ class Line extends CanvasElement {
         this.drawExpression();
         this.drawFunction();
     }
+
 }
