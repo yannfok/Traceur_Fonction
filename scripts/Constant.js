@@ -1,3 +1,8 @@
+/**
+ * All the Constant goes here
+ */
+
+
 let canvas = document.getElementById("canvas");
 const CANVAS_SIZE = canvas.getAttribute("width");
 const MID_SIZE_SCALE = CANVAS_SIZE/2;

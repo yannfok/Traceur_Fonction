@@ -1,3 +1,7 @@
+/**
+ * Draw the axis of the Plan
+ */
+
 class Repere extends CanvasElement{
 
     constructor(ctx,scale_value,scale_size)

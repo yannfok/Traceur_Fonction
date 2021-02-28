@@ -1,3 +1,7 @@
+/**
+ * Represents the trace of a Function on the Canvas
+ */
+
 class Line extends CanvasElement {
 
     constructor(ctx, repere, functional) {

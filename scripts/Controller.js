@@ -1,3 +1,7 @@
+/**
+ * Class who handle the input and the control of the user
+ */
+
 class Controller{
 
     constructor(canvas,element)

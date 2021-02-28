@@ -1,3 +1,7 @@
+/**
+ * Parses the function of the User Input
+ */
+
 function exp(x)
 {
 
